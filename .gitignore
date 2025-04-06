@@ -1,0 +1,37 @@
+# ---------------------
+# Node.js (Next.js)
+# ---------------------
+node_modules/
+.next/
+npm-debug.log*
+yarn-error.log
+
+# ---------------------
+# Python (FastAPI)
+# ---------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+venv/
+env/
+.Python
+
+# ---------------------
+# VSCode or PyCharm
+# ---------------------
+.vscode/
+.idea/
+
+# ---------------------
+# Docker
+# ---------------------
+postgres_data/
+docker-compose.override.yml
+
+# ---------------------
+# Mac & OS
+# ---------------------
+.DS_Store
+Thumbs.db
